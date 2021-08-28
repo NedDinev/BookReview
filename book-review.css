@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat
+    center center;
+}
+
+nav {
+  height: 80px;
+  border: 1px solid #eff4f7;
+  background-color: #eff4f7;
+  margin: 40px;
+  position: relative;
+  z-index: 1000;
+}
+
+nav ul {
+  padding: 20px 20px 0 20px;
+  float: Right;
+}
+
+nav ul li {
+  margin-right: 20px;
+  padding-bottom: 23px;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li:hover {
+  border-bottom: 3px solid #6eeeff;
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a4a8a9;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  width: 160px;
+  height: 150px;
+  background-color: #ea3d51;
+  left: 42%;
+  top: 2%;
+}
+
+.logo h1 {
+  position: absolute;
+  top: 55%;
+  right: 20%;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 50px;
+  letter-spacing: 8px;
+}
+
+main {
+  border: 1px solid #cbd0d9;
+  background-color: #cbd0d9;
+  margin: 5% auto 5% auto;
+  width: 85%;
+  z-index: 1000;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  z-index: 900;
+  position: relative;
+  margin-top: 0;
+}
+
+.novel {
+  text-transform: uppercase;
+  font-size: 130px;
+  color: #6dffb8;
+  position: absolute;
+  top: 12%;
+  right: 36%;
+  z-index: 800;
+}
+
+section {
+  border: 1px solid #ea3853;
+  background-color: #ea3853;
+  width: 30%;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  right: 35%;
+}
+
+section img {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 10%;
+  margin-left: 38%;
+}
+
+.stars {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.review {
+  text-align: center;
+  margin: 0;
+  padding: 5% 15% 5% 15%;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ad213f;
+  margin: 5px;
+}
+
+.donate-button {
+  border: 3px solid #70ecff;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 15px 30px 15px 30px;
+  margin-left: 37%;
+  margin-top: 0;
+  margin-bottom: 10%;
+}
+
+.donate-button:hover {
+  background-color: #70ecff;
+  color: #121f25;
+  cursor: pointer;
+}
+
+article {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  width: 45%;
+  margin: auto;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 35%;
+  padding-bottom: 2%;
+}
+
+article h1 {
+  color: #46ee97;
+  font-size: 40px;
+}
+
+.read-button {
+  border: 3px solid #628291;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+}
+
+.read-button:hover {
+  background-color: #628291;
+  color: #ffffff;
+  cursor: pointer;
+}
